@@ -1,0 +1,32 @@
+import styled from 'styled-components';
+
+export const Container = styled.div`
+  .score {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: ${(props) => props.scoreColor};
+    border-radius: 150px;
+    height: 220px;
+    width: 220px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+  }
+
+  .general-average-score {
+    font-size: 98px;
+  }
+
+  .score-comment {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    color: #95a5a6;
+    margin-top: 7px;
+  }
+`;
